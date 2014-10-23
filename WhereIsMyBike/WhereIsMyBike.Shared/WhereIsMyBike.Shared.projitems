@@ -15,13 +15,18 @@
     <Compile Include="$(MSBuildThisFileDirectory)App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Common\INavigationService.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Common\NavigationService.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Common\Views.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModel\ClosestStationViewModel.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)ViewModel\MainViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModel\NavigateViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModel\SearchViewModel.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)ViewModel\StationViewModel.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)ViewModel\ViewModelLocator.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="$(MSBuildThisFileDirectory)Model\" />
     <Folder Include="$(MSBuildThisFileDirectory)Design\" />
-    <Folder Include="$(MSBuildThisFileDirectory)Common\" />
   </ItemGroup>
 </Project>

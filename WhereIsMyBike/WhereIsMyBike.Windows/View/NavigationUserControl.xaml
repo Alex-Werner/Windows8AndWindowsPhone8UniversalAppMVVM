@@ -1,0 +1,19 @@
+﻿<UserControl
+    x:Class="WhereIsMyBike.View.NavigationUserControl"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:WhereIsMyBike.View"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d" 
+    DataContext="{Binding NavigateViewModel, Source={StaticResource Locator}}">
+
+    <StackPanel Orientation="Vertical">
+
+        <Button Content="Map" Command="{Binding NavigateCommand}" CommandParameter="Map" HorizontalAlignment="Left"  VerticalAlignment="Top" Width="260"/>
+        <Button Content="Stations" Command="{Binding NavigateCommand}" CommandParameter="Stations" HorizontalAlignment="Left"  VerticalAlignment="Top" Width="260"/>
+        <Button Content="Recherche" Command="{Binding NavigateCommand}" CommandParameter="Search"  HorizontalAlignment="Left" VerticalAlignment="Top" Height="37" Width="260"/>
+        <Button Content="Station la plus proche" Command="{Binding NavigateCommand}" CommandParameter="ClosestStation"  HorizontalAlignment="Left" VerticalAlignment="Top" Width="260"/>
+
+    </StackPanel>
+</UserControl>
