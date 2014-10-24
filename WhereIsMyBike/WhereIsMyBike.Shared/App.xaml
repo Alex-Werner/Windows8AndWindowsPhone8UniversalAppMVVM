@@ -6,8 +6,13 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
              xmlns:vm="using:WhereIsMyBike.ViewModel">
-  <Application.Resources>
-    <vm:ViewModelLocator x:Key="Locator" 
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="Resources/Style/Dark/Style.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+            <vm:ViewModelLocator x:Key="Locator" 
                          d:IsDataSource="True"/>
-  </Application.Resources>
+        </ResourceDictionary>
+    </Application.Resources>
 </Application>

@@ -18,6 +18,7 @@
     <Compile Include="$(MSBuildThisFileDirectory)Common\INavigationService.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Common\NavigationService.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Common\Views.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model\Stations.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)ViewModel\ClosestStationViewModel.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)ViewModel\MainViewModel.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)ViewModel\NavigateViewModel.cs" />
@@ -26,7 +27,17 @@
     <Compile Include="$(MSBuildThisFileDirectory)ViewModel\ViewModelLocator.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="$(MSBuildThisFileDirectory)Model\" />
     <Folder Include="$(MSBuildThisFileDirectory)Design\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="$(MSBuildThisFileDirectory)Resources\Style\Dark\Colors.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="$(MSBuildThisFileDirectory)Resources\Style\Dark\Style.xaml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
   </ItemGroup>
 </Project>

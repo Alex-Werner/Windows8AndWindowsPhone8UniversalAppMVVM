@@ -1,0 +1,21 @@
+﻿<Model:Feature xmlns:Model="using:WhereIsMyBike.Model" xmlns:System="using:System" type="Maecenas curabitur phasellus aliquam">
+	<Model:Feature.geometry>
+		<Model:Geometry type="Cras integer vestibulum aenean adipiscing">
+			<Model:Geometry.coordinates>
+				<System:Double>753.61</System:Double>
+				<System:Double>835.59</System:Double>
+				<System:Double>791.22</System:Double>
+				<System:Double>602.34</System:Double>
+				<System:Double>285.42</System:Double>
+				<System:Double>602.99</System:Double>
+				<System:Double>915.42</System:Double>
+				<System:Double>497.96</System:Double>
+				<System:Double>979.79</System:Double>
+				<System:Double>346.33</System:Double>
+			</Model:Geometry.coordinates>
+		</Model:Geometry>
+	</Model:Feature.geometry>
+	<Model:Feature.properties>
+		<Model:Properties2 En_service="Parturient nam consequat vestibulum" M_en_S_16_nov_07="Accumsan donec" Mot_Directeur="Bibendum quisque adipiscing dictumst vivamus" Nrivoli="Auctor fusce vestibulum" No="Aliquam facilisi hac" X_WGS84="669.39" X_CC43="362.71" Y_WGS84="522.56" Y_CC43="520.58" commune="Dis duis aptent" code_insee="Etiam parturient eleifend elementum est" nom="Class curae mauris praesent nullam" nb_bornettes="68" num_station="19" street="Convallis dignissim vestibulum sed"/>
+	</Model:Feature.properties>
+</Model:Feature>

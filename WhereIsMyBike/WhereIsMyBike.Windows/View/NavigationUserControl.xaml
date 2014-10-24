@@ -10,10 +10,10 @@
 
     <StackPanel Orientation="Vertical">
 
-        <Button Content="Map" Command="{Binding NavigateCommand}" CommandParameter="Map" HorizontalAlignment="Left"  VerticalAlignment="Top" Width="260"/>
-        <Button Content="Stations" Command="{Binding NavigateCommand}" CommandParameter="Stations" HorizontalAlignment="Left"  VerticalAlignment="Top" Width="260"/>
-        <Button Content="Recherche" Command="{Binding NavigateCommand}" CommandParameter="Search"  HorizontalAlignment="Left" VerticalAlignment="Top" Height="37" Width="260"/>
-        <Button Content="Station la plus proche" Command="{Binding NavigateCommand}" CommandParameter="ClosestStation"  HorizontalAlignment="Left" VerticalAlignment="Top" Width="260"/>
+        <Button Content="Map"   Command="{Binding NavigateCommand}"  CommandParameter="Map" HorizontalAlignment="Left"  VerticalAlignment="Top" Width="260" Style="{StaticResource ButtonStyle}"/>
+        <Button Content="Stations" Command="{Binding NavigateCommand}" CommandParameter="Stations" HorizontalAlignment="Left"  VerticalAlignment="Top" Width="260" Style="{StaticResource ButtonStyle}"/>
+        <Button Content="Recherche" Command="{Binding NavigateCommand}" CommandParameter="Search"  HorizontalAlignment="Left" VerticalAlignment="Top" Height="37" Style="{StaticResource ButtonStyle}" Width="260"/>
+        <Button Content="Station la plus proche" Command="{Binding NavigateCommand}" CommandParameter="ClosestStation"  HorizontalAlignment="Left" VerticalAlignment="Top" Width="260" Style="{StaticResource ButtonStyle}" />
 
     </StackPanel>
 </UserControl>

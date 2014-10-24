@@ -1,0 +1,4 @@
+{"name":"Générique00","type":"FeatureCollection"
+,"crs":{"type":"name","properties":{"name":"EPSG:3943"}}
+,"features":[
+{"type":"Feature","geometry":{"type":"Point","coordinates":[1573644.2138,2272827.68]},"properties":{"nom":"DUCLOS","num_station":260,"nb_bornettes":18,"En_service":"oui","M_en_S_16_nov_07":"2013","street":"RUE LEONCE DUCLOS","Mot_Directeur":"DUCLOS (RUE LEONCE DUCLOS)","commune":"Toulouse","code_insee":"31555","X_CC43":1573644.2138,"Y_CC43":2272827.68,"X_WGS84":1.433795957305,"Y_WGS84":43.6449599546154}}]}

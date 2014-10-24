@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 using WhereIsMyBike.Common;
-using WhereIsMyBike.View;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
+using WhereIsMyBike.View;
 
 namespace WhereIsMyBike.ViewModel
 {
