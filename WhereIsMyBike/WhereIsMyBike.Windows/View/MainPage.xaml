@@ -20,7 +20,19 @@
             </Grid>         
         </Grid>
         <Grid HorizontalAlignment="Stretch"  VerticalAlignment="Stretch" Grid.Column="1" Background="#26000000"  Margin="1" DataContext="{Binding Mode=OneWay}">
-            <bm:Map Credentials="Ag6BuvykbkGH592x4DvH6gK0fBjhNzLLXI643NDgdp4idO0NCFjIrbaAbdA6enla" x:Name="myMap"></bm:Map>
+            <bm:Map 
+                Credentials="Ag6BuvykbkGH592x4DvH6gK0fBjhNzLLXI643NDgdp4idO0NCFjIrbaAbdA6enla" 
+                x:Name="myMap"
+                ZoomLevel="12"
+                >
+                <bm:Map.Children>
+                    <bm:Pushpin x:ConnectionId='1'                       >
+                        <bm:MapLayer.Position>
+                            <bm:Location Latitude="43.596931999999995" Longitude="1.421816" />
+                        </bm:MapLayer.Position>
+                    </bm:Pushpin>
+                </bm:Map.Children>
+            </bm:Map>
 
 
         </Grid>

@@ -15,6 +15,7 @@
     <Compile Include="$(MSBuildThisFileDirectory)App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Common\GeolocatorService.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Common\INavigationService.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Common\NavigationService.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Common\Views.cs" />
